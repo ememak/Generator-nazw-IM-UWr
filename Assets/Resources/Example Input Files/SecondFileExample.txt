@@ -1,0 +1,11 @@
+algebraiczna
+różniczkowa
+stochastyczna
+funkcjonalna
+liniowa
+topologiczna
+harmoniczna
+numeryczna
+na przestrzeniach euklidesowych i grupach Liego
+na przestrzeniach topologicznych
+na przestrzeniach Banacha
