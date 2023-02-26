@@ -5,3 +5,7 @@ Logika
 Algebra
 Arytmetyka
 Statystyka
+Teoria Mnogości --R
+Teoria Modeli --R
+Teoria Liczb --R
+Teoria Grup --R

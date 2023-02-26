@@ -27,7 +27,21 @@ public class GenerateName : MonoBehaviour
     public void Generate()
     {
         int N = firstParts.Count, M = secondParts.Count;
-        courseNameField.text = firstParts[Random.Range(0, N)] + " " + secondParts[Random.Range(0, M)];
+        string first = firstParts[Random.Range(0, N)], second = secondParts[Random.Range(0, M)];
+        if (first.Contains("--R") && !second.Contains("--NR"))
+        {
+            first = first.Replace("--R", "").Trim();
+            var array = second.ToCharArray();
+            array[0] = (char)('A' - 'a' + array[0]);
+            second = new string(array);
+            courseNameField.text = second + " " + first;
+        }
+        else
+        {
+            first = first.Replace("--R", "").Trim();
+            second = second.Replace("--NR", "").Trim();
+            courseNameField.text = first + " " + second;
+        }
     }
 
     public void ReadFirstFile()

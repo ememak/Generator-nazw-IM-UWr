@@ -6,6 +6,6 @@ liniowa
 topologiczna
 harmoniczna
 numeryczna
-na przestrzeniach euklidesowych i grupach Liego
-na przestrzeniach topologicznych
-na przestrzeniach Banacha
+na przestrzeniach euklidesowych i grupach Liego --NR
+na przestrzeniach topologicznych --NR
+na przestrzeniach Banacha --NR
