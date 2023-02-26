@@ -5,7 +5,7 @@ Domyślne pliki pierwszych i drugich części nazw przedmiotów są w folderze A
 
 ### Release 2.0!
 
-Od teraz można wstawiać flagi --R i --NR dla zmiany kolejności słów w nazwach. Stochastyczna Teoria Mnogości stała się możliwa, wielki sukces dla świata.
+Od teraz można wstawiać flag --R dla zmiany kolejności słów w nazwach oraz flagi --NR dla zablokowania tejże zmiany. Stochastyczna Teoria Mnogości stała się możliwa, wielki sukces dla świata.
 
 Podziękowania dla użytkownika gkngkc za jego pakiet
 [StandaloneFileBrowser](https://github.com/gkngkc/UnityStandaloneFileBrowser)
